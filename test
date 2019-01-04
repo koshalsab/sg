@@ -1,0 +1,15 @@
+Based on https://github.com/monolive/ambari-custom-alerts 
+20 import json 
+21 import logging 
+22 from subprocess import * 
+23 import os 
+24 import time 
+25 import socket 
+26 import StringIO 
+27 
+ 
+28 # define variables 
+29 AMBARI_USER_NAME = "admin" 
+30 
+ 
+31 # Get Ambari User Password 
